@@ -1,0 +1,18 @@
+.background    { background-image: url("https://i.cubeupload.com/SJ5sWf.jpg");
+                 background-repeat: repeat-x;
+                 background-size: contain, auto;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: blue; }
+.wall          { background: hotpink;   }
+.floater       { background: white;   }
+.actor  { position: absolute;  }
+.player { background: yellow; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
